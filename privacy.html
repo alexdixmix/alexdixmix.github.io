@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pc-admin Privacy Policy</title>
+<meta name="description" content="Privacy Policy of pc-admin.">
+<style>
+  :root { --bg: #fbfaf7; --ink: #1f2328; --muted: #5b6168; --line: #e3e0d8; --accent: #2f6f4e; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #16181b; --ink: #e8e6e1; --muted: #a3a8ae; --line: #2c3035; --accent: #7cc39b; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  ul { padding-left: 1.2em; margin: 8px 0; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  code { font-size: 0.85em; color: var(--muted); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="sub">pc-admin &middot; effective 27 October 2026</p>
+
+  <p>pc-admin is a private Google Apps Script web app. Its owner uses it to look after his own Apps Script projects. It is not offered to other people. This page says which Google data pc-admin uses, why, and what happens to it.</p>
+
+  <h2>Google data pc-admin uses</h2>
+  <ul>
+    <li><strong>The owner's Apps Script projects</strong> <code>script.projects</code>, <code>script.deployments</code> - to read and, at the owner's request, update the code, versions and web app deployments of a short fixed list of his own projects.</li>
+    <li><strong>Information about runs of those projects</strong> <code>script.processes</code>, <code>script.metrics</code> - start times, durations, status and daily totals, to know how many runs go at once.</li>
+    <li><strong>Sending email</strong> <code>script.send_mail</code> - only to send the owner a notice about every change, to his own address.</li>
+    <li><strong>The owner's email address</strong> <code>userinfo.email</code> - to know where to send those notices.</li>
+    <li><strong>Connecting to an external service</strong> <code>script.external_request</code> - only to call Google's Apps Script API.</li>
+  </ul>
+  <p>pc-admin does not read email, files, contacts, calendars or any other Google data.</p>
+
+  <h2>How the data is used and shared</h2>
+  <ul>
+    <li>Only to give the owner the functions above.</li>
+    <li>Answers of pc-admin go only to the owner and to tools the owner uses on his own behalf, for example an AI assistant that maintains these projects for him.</li>
+    <li>Nothing is sold, used for advertising or given to anyone else.</li>
+  </ul>
+
+  <h2>What is stored</h2>
+  <p>pc-admin keeps one thing: a log of its last 60 changes (time, project name and a short description), in the properties of the script itself in the owner's Google account. Older entries are replaced by new ones. It uses no cookies and no analytics.</p>
+
+  <h2>Security</h2>
+  <p>Every request to pc-admin must carry a secret key. The script keeps only a SHA-256 hash of each key, never the key itself. All traffic goes over HTTPS.</p>
+
+  <h2>Removing access</h2>
+  <p>The owner can stop pc-admin at any time: by removing its access in his Google Account (Security - third-party access), by archiving its web app deployment, or by deleting the script.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>pc-admin's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Changes and contact</h2>
+  <p>Any change to this policy will be posted on this page with a new date. Questions: the developer contact email shown on the Google sign-in screen of pc-admin.</p>
+
+  <footer>
+    <a href="./">pc-admin</a> &middot; Privacy Policy &middot; Last updated: 27 October 2026
+  </footer>
+</main>
+</body>
+</html>

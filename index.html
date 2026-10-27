@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pc-admin</title>
+<meta name="description" content="pc-admin - a private helper its owner uses to maintain his own Google Apps Script projects.">
+<style>
+  :root { --bg: #fbfaf7; --ink: #1f2328; --muted: #5b6168; --line: #e3e0d8; --accent: #2f6f4e; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #16181b; --ink: #e8e6e1; --muted: #a3a8ae; --line: #2c3035; --accent: #7cc39b; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  ul { padding-left: 1.2em; margin: 8px 0; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>pc-admin</h1>
+  <p class="sub">A private helper its owner uses to maintain his own Google Apps Script projects.</p>
+
+  <h2>What pc-admin does</h2>
+  <ul>
+    <li>Shows how many runs of the owner's own Apps Script projects are going now and how many there were before, so that his tools stay within Google's limits.</li>
+    <li>Lists the versions and deployments of those projects.</li>
+    <li>When the owner asks for it, puts new code into one of his projects, makes a new version and switches its web app to that version, or switches it back to an earlier one.</li>
+    <li>Sends the owner an email about every change of code or version.</li>
+  </ul>
+
+  <h2>Who uses it</h2>
+  <p>Only its owner. pc-admin works only with a short list of the owner's own projects, every request needs a secret key, and the app is not offered to anyone else.</p>
+
+  <h2>Privacy</h2>
+  <p>What pc-admin reads, what it keeps and what it never does is described in the <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <footer>
+    pc-admin &middot; <a href="privacy.html">Privacy Policy</a> &middot; Questions: the developer contact email shown on the Google sign-in screen of pc-admin.<br>
+    Last updated: 27 October 2026
+  </footer>
+</main>
+</body>
+</html>
